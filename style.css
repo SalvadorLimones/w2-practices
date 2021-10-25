@@ -38,3 +38,18 @@ button, input, textarea, select {
   -webkit-appearance: none !important; 
   border-radius: 0;
 }
+
+section {
+  min-height: 100vh;
+}
+
+#menu-btn {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+
+  background-color: black;
+}
