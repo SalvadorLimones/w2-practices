@@ -50,6 +50,26 @@ section {
   width: 40px;
   height: 40px;
   margin: 20px;
+  z-index: 10;  /*azt mutatja, hogy a layer mennyire legyen elől; minél nagyobb, annál előrébb */
 
   background-color: black;
+}
+
+#menu-btn.clicked {
+  background-color: red;
+}
+
+#nav {
+  position: fixed;
+  top:0;
+  right: -200px;
+  width: 200px;
+  height: 100vh;
+  z-index: 9;
+
+  background-color: blue;
+}
+
+#nav.clicked {
+  right: 0;
 }
