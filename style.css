@@ -68,6 +68,7 @@ section {
   z-index: 9;
 
   background-color: blue;
+  transition: right 0.3s;
 }
 
 #bodyID.clicked #nav{
